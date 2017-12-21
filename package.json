@@ -1,0 +1,25 @@
+{
+	"name": "Test",
+	"version": "v0.1.0",
+	"versionDate": "2017-12-19",
+	"author": "hackolade",
+	"engines": {
+		"hackolade": "1.10.x",
+		"hackoladePlugin": "1.0.0"
+	},
+	"contributes": {
+		"target": {
+			"applicationTarget": "TEST",
+			"title": "Test",
+			"versions": [
+				"0.0.x"
+			]
+		},
+		"features": {
+			"nestedCollections": false,
+			"disablePatternField": true,
+			"disableMultipleTypes": true
+		}
+	},
+	"description": "Test"
+}
